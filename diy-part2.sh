@@ -35,3 +35,6 @@ git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
 # 添加poweroff按钮
 curl -fsSL https://raw.githubusercontent.com/sirpdboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm
 curl -fsSL https://raw.githubusercontent.com/sirpdboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
+
+# files大法
+# chmod -R 755 files
