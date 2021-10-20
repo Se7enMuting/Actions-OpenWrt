@@ -13,15 +13,6 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.95/g' package/base-files/files/bin/config_generate
 
-# 删除luci-app-wrtbwmon，避免warning
-rm -rf package/lean/luci-app-wrtbwmon/
-
-git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
-
-git clone https://github.com/Se7enMuting/Openwrt-Packages package/Openwrt-Packages
-
-git clone https://github.com/xiaorouji/openwrt-passwall package/Openwrt-Passwall
-
 # clone openclash
 mkdir package/luci-app-openclash
 cd package/luci-app-openclash

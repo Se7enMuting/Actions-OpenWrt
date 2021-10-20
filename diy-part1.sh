@@ -14,4 +14,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-# echo 'src-git lienol https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git lienol https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git Se7en https://github.com/Se7enMuting/Openwrt-Packages' >>feeds.conf.default
+echo 'src-git opentopd https://github.com/sirpdboy/luci-theme-opentopd' >>feeds.conf.default
+
+# 删除luci-app-wrtbwmon，避免warning
+rm -rf package/lean/luci-app-wrtbwmon/
