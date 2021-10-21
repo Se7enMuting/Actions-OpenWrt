@@ -13,6 +13,8 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.95/g' package/base-files/files/bin/config_generate
 
+git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
+
 # clone openclash
 mkdir package/luci-app-openclash
 cd package/luci-app-openclash
