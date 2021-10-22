@@ -15,6 +15,8 @@ sed -i 's/192.168.1.1/192.168.1.95/g' package/base-files/files/bin/config_genera
 
 git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
 
+git clone https://github.com/Se7enMuting/Openwrt-Packages package/Openwrt-Packages
+
 # clone openclash
 mkdir package/luci-app-openclash
 cd package/luci-app-openclash
