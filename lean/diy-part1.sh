@@ -15,3 +15,6 @@
 
 # Add a feed source
 echo 'src-git lienol https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+# rm
+rm -rf package/lean/luci-app-wrtbwmon/

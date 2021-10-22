@@ -17,6 +17,10 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-ope
 
 git clone https://github.com/Se7enMuting/Openwrt-Packages package/Openwrt-Packages
 
+# rm
+rm -rf feeds/luci/applications/luci-app-wrtbwmon
+rm -rf package/feeds/luci/luci-app-wrtbwmon
+
 # add poweroff
 curl -fsSL https://raw.githubusercontent.com/sirpdboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm
 curl -fsSL https://raw.githubusercontent.com/sirpdboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
