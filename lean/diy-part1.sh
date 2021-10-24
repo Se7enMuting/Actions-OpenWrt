@@ -18,3 +18,4 @@ echo 'src-git lienol https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf
 
 # rm
 rm -rf package/lean/luci-app-wrtbwmon/
+rm -rf package/lean/luci-theme-argon/

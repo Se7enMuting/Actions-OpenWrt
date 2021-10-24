@@ -17,6 +17,8 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-ope
 
 git clone https://github.com/Se7enMuting/Openwrt-Packages package/Openwrt-Packages
 
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+
 # clone openclash
 mkdir package/luci-app-openclash
 cd package/luci-app-openclash
