@@ -17,14 +17,9 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-ope
 
 git clone https://github.com/Se7enMuting/Openwrt-Packages package/Openwrt-Packages
 
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-
 # rm
 rm -rf feeds/luci/applications/luci-app-wrtbwmon
 rm -rf package/feeds/luci/luci-app-wrtbwmon
-
-rm -rf feeds/luci/themes/luci-theme-argon
-rm -rf package/feeds/luci/luci-theme-argon
 
 # add poweroff
 curl -fsSL https://raw.githubusercontent.com/sirpdboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm
