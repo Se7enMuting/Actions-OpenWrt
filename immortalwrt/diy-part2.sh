@@ -23,6 +23,8 @@ git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme
 
 git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
 
+git clone https://github.com/sirpdboy/netspeedtest package/netspeedtest
+
 # rm
 rm -rf feeds/luci/applications/luci-app-wrtbwmon
 rm -rf package/feeds/luci/luci-app-wrtbwmon
