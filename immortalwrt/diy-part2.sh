@@ -36,8 +36,8 @@ rm -rf package/feeds/luci/luci-theme-argon
 # rm -rf package/feeds/luci/luci-app-netdata
 
 # add poweroff
-curl -fsSL https://raw.githubusercontent.com/sirpdboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm
-curl -fsSL https://raw.githubusercontent.com/sirpdboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
+curl -fsSL https://raw.githubusercontent.com/Se7enMuting/Openwrt-Packages/main/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm
+curl -fsSL https://raw.githubusercontent.com/Se7enMuting/Openwrt-Packages/main/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
 
 # files
 # chmod -R 755 files
