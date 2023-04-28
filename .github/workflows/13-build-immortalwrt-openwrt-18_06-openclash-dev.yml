@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 13 Build immortalwrt OpenWrt 18.06 OpenClash
+name: 13 Build immortalwrt OpenWrt 18.06 OpenClash dev
 
 on:
   repository_dispatch:
